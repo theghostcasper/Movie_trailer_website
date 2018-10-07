@@ -1,6 +1,6 @@
-#Movie trailer website
+# Movie trailer website
 
-###By Hazim Mohamed
+### By Hazim Mohamed
 This website is part of the [Full stack Developer nanodegree of udacity](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004)
 
 ## Project description
