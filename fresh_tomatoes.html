@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +13,7 @@
     <style type="text/css" media="screen">
         body {
             padding-top: 80px;
+            background: #FFE5E5;
         }
         .navbar{
             background: #FF2400;
@@ -37,10 +39,12 @@
         .movie-tile {
             margin-bottom: 20px;
             padding-top: 20px;
+            transition: all 0.6s;
         }
         .movie-tile:hover {
-            background-color: #EEE;
+            background-color: #FF2400;
             cursor: pointer;
+            border-radius:25px;
         }
         .scale-media {
             padding-bottom: 56.25%;
@@ -102,8 +106,22 @@
       </div>
     </div>
 
+  <body>
+    <!-- Trailer Video Modal -->
+    <div class="modal" id="trailer">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
+            <img src="https://lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24"/>
+          </a>
+          <div class="scale-media" id="trailer-video-container">
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Main Page Content -->
-    <div class="container">
+        <div class="container">
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
@@ -113,7 +131,27 @@
       </div>
     </div>
     <div class="container">
-      
+            
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="KYz2wyBy3kc" data-toggle="modal" data-target="#trailer">
+    <img src="http://www.gstatic.com/tv/thumb/v22vodart/17420/p17420_v_v8_an.jpg" width="220" height="342">
+    <h2>Toy Story</h2>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="5PSNL1qE6VY" data-toggle="modal" data-target="#trailer">
+    <img src="http://www.gstatic.com/tv/thumb/v22vodart/3542039/p3542039_v_v8_ac.jpg" width="220" height="342">
+    <h2>Avatar</h2>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="XCwy6lW5Ixc" data-toggle="modal" data-target="#trailer">
+    <img src="https://lh3.ggpht.com/w60u7fTrzb6Sgrf0Atg3UY1rOA0cK8VB-BE6ItGxov-ePzEGuwZbhjbTQ6G-ahzO8tUW=w200-h300" width="220" height="342">
+    <h2>school of rock</h2>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="PbA63a7H0bo" data-toggle="modal" data-target="#trailer">
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Mockingjay_Part_2_Poster.jpg/220px-Mockingjay_Part_2_Poster.jpg" width="220" height="342">
+    <h2>The Hunger games</h2>
+</div>
+
     </div>
   </body>
 </html>
