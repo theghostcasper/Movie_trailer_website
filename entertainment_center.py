@@ -7,33 +7,34 @@ import media
 import fresh_tomatoes
 
 #create new instance for each movie.
-TOY_STORY = media.Movie('Toy Story',
-                        'A story of a boy and his toys that come to life'
+SPIDER_MAN = media.Movie('Spider man',
+                        'A poor sickly orphan, is bitten by a radioactive spider. As a result of the bite, he gains superhuman strength, speed, and agility along with the ability to cling to walls.'
                         ,
-                        'http://www.gstatic.com/tv/thumb/v22vodart/17420/p17420_v_v8_an.jpg'
-                        , 'https://www.youtube.com/watch?v=KYz2wyBy3kc'
+                        'https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Spider-Man2002Poster.jpg/220px-Spider-Man2002Poster.jpg'
+                        , 'https://www.youtube.com/watch?v=TYMMOjBUPMM'
                        )
 
-AVATAR = media.Movie('Avatar', 'A marine on an alien planet',
-                     'http://www.gstatic.com/tv/thumb/v22vodart/3542039/p3542039_v_v8_ac.jpg'
-                     , 'https://www.youtube.com/watch?v=5PSNL1qE6VY'
+DOCTOR_STRANGE = media.Movie('Doctor Strange', "Dr. Stephen Strange's (Benedict Cumberbatch) life changes after a car accident robs him of the use of his hands. When traditional medicine fails him, he looks for healing, and hope, in a mysterious enclave. He quickly learns that the enclave is at the front line of a battle against unseen dark forces bent on destroying reality. Before long, Strange is forced to choose between his life of fortune and status or leave it all behind to defend the world as the most powerful sorcerer in existence.",
+                     'https://i.redd.it/myvs6zoz1qrz.jpg'
+                     , 'https://www.youtube.com/watch?v=HSzx-zryEgM'
                     )
 
-SCHOOL_OF_ROCK = media.Movie('school of rock', 'Story line',
-                             'https://lh3.ggpht.com/w60u7fTrzb6Sgrf0Atg3UY1rOA0cK8VB-BE6ItGxov-ePzEGuwZbhjbTQ6G-ahzO8tUW=w200-h300'
+THE_FAULT_IN_OUR_STARS = media.Movie('The fault in our stars', 'young teenage girl who has been diagnosed with lung cancer and attends a cancer support group. Hazel is 16 and is reluctant to go to the support group, where she met a young boy named Hazel.',
+                             'http://www.gstatic.com/tv/thumb/v22vodart/10372532/p10372532_v_v8_ae.jpg'
                              ,
-                             'https://www.youtube.com/watch?v=XCwy6lW5Ixc'
+                             'https://www.youtube.com/watch?v=9ItBvH5J6ss'
                             )
 
-THE_HUNGER_GAMES = media.Movie('The Hunger games', 'Story line',
-                               'https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Mockingjay_Part_2_Poster.jpg/220px-Mockingjay_Part_2_Poster.jpg'
+READY_PLAYER_ONE = media.Movie('Ready player one', 'cool movie with long storyline... too lazy to copy.',
+                               'http://www.gstatic.com/tv/thumb/v22vodart/12806300/p12806300_v_v8_ac.jpg'
                                ,
-                               'https://www.youtube.com/watch?v=PbA63a7H0bo'
+                               'https://www.youtube.com/watch?v=cSp1dM2Vj48'
                               )
 
 
+
 #the movies array, containing all the movies to display.
-MOVIES = [TOY_STORY, AVATAR, SCHOOL_OF_ROCK, THE_HUNGER_GAMES]
+MOVIES = [SPIDER_MAN, DOCTOR_STRANGE, THE_FAULT_IN_OUR_STARS, READY_PLAYER_ONE]
 #run the website from here, By opening the browser page.
 fresh_tomatoes.open_movies_page(MOVIES)
       
