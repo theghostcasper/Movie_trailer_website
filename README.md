@@ -5,7 +5,7 @@ This website is part of the [Full stack Developer nanodegree of udacity](https:/
 
 ## Project description
 
-This project is a Movie website. It allows users to see the movies i like and view its trailers too.
+This project is a Movie trailer website. It allows users to see the movies i like and view its trailers too.
 
 ## Project requirements
 
@@ -16,8 +16,8 @@ To be able to run this project you should have the following.
 
 ## How to run the website
 
-1. In your command prompt write: $ `git clone https://github.com/SteveWooding/movie-website`
-2. Then: $ `cd "movie-website"`
+1. download the repository or clone it by typing: $ `git clone https://github.com/SteveWooding/movie-website` in the git bash
+2. Then: $ `cd "movie-website"` 
 3. execute the entertainment_center.py script by entering: $ `python entertainment_center.py`
 
 The browser will then launch the movie trailer website.
