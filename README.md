@@ -22,3 +22,10 @@ To be able to run this project you should have the following.
 
 The browser will then launch the movie trailer website.
 
+## FAQ
+
+### 1. how to view the story line ?
+A. to view the storyline just put the cursur over the movie you like.
+
+### 2. how to view the trailer ?
+A. just click on the movie you like.
