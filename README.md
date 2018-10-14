@@ -12,7 +12,7 @@ The project consists of three main files:
 
 2. `entertainment_center.py`, This is the main program used to create an instance for each movie, those instances are later passed to the `fresh_tomatoes.py` file, which in turn generates the html code based on the movie instances created.
 
-3. `media.py`. This python file contains the blueprints (classes) that is used to hold movie information. These classed are then used by the `entertainment_center.py` to create the movie instances.
+3. `media.py`. This python file contains the blueprints (classes) that is used to hold movie information. These classes are then used by the `entertainment_center.py` to create the movie instances.
 
 ## Project requirements
 
