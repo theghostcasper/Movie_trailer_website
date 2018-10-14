@@ -5,14 +5,21 @@ This website is part of the [Full stack Developer nanodegree of udacity](https:/
 
 ## Project description
 
-This project is a Movie trailer website. It allows users to see the movies i like and view its trailers too.
+This project is a Movie trailer website. It allows users to see the movies i like and view its trailers too. 
+The project consists of three main files:
+
+1. `fresh_tomatoes.py`, It is the tool used to parse the html code and add the links, images and youtube trailers. Then generate an HTML file that the browser understands.
+
+2. `entertainment_center.py`, This is the main program used to create an instance for each movie, those instances are later passed to the `fresh_tomatoes.py` file, which in turn generates the html code based on the movie instances created.
+
+3. `media.py`. This python file contains the blueprints (classes) that is used to hold movie information. These classed are then used by the `entertainment_center.py` to create the movie instances.
 
 ## Project requirements
 
-To be able to run this project you should have the following.
+To be able to run this project you should have done the following.
 
-1. Any python 2 version.
-2. Add python to path.
+1. Download any python 2 version. visit [this website to download python](https://www.python.org/)
+2. Add python to path. [Here's how you can add python to path](https://stackoverflow.com/questions/3701646/how-to-add-to-the-pythonpath-in-windows).
 
 ## How to run the website
 
