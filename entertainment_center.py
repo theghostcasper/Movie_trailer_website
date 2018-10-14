@@ -10,16 +10,17 @@ import media
 import fresh_tomatoes
 
 # create new instance for each movie.
-SPIDER_MAN = media.Movie('Spider man',
-                         'A poor sickly orphan, is bitten by a radioactive spider. \
-                         As a result of the bite, he gains superhuman \
-                         strength, speed, and agility along with \
-                         the ability to cling to walls.',
-                         'https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/ \
-                         Spider-Man2002Poster.jpg/220px-Spider- \
-                         Man2002Poster.jpg',
-                         'https://www.youtube.com/watch?v=TYMMOjBUPMM'
-                         )
+SPIDER_MAN = media.Movie(
+    'Spider man',
+    'A poor sickly orphan, is bitten by a radioactive spider.\
+    As a result of the bite, he gains superhuman \
+    strength, speed, and agility along with the ability to cling to walls.',
+
+    'https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/' +
+    'Spider-Man2002Poster.jpg/220px-Spider-Man2002Poster.jpg',
+
+    'https://www.youtube.com/watch?v=TYMMOjBUPMM'
+)
 
 DOCTOR_STRANGE = media.Movie('Doctor Strange', "Dr. Stephen Strange's (Benedict Cumberbatch)\
   life changes after a car accident robs him of the use of his hands.\
@@ -33,24 +34,28 @@ DOCTOR_STRANGE = media.Movie('Doctor Strange', "Dr. Stephen Strange's (Benedict 
                              'https://www.youtube.com/watch?v=HSzx-zryEgM'
                              )
 
-THE_FAULT_IN_OUR_STARS = media.Movie('The fault in our stars',
-                                     'young teenage girl who has been diagnosed with\
-                                     lung cancer and \
-  attends a cancer support group. Hazel is 16 and is reluctant to go \
-  to the support group, where she met a young boy named Hazel.',
-                                     'http://www.gstatic.com/tv/thumb/v22vodart/\
-                                     10372532/p10372532_v_v8_ae.jpg',
-                                     'https://www.youtube.com/ \
-                                     watch?v=9ItBvH5J6ss'
-                                     )
+THE_FAULT_IN_OUR_STARS = media.Movie(
+    'The fault in our stars',
+    'young teenage girl who has been diagnosed with\
+    lung cancer and attends a cancer support group.\
+    Hazel is 16 and is reluctant to go\
+    to the support group, where she met a young boy named Hazel.',
 
-READY_PLAYER_ONE = media.Movie('Ready player one', 'cool movie with long storyline... \
-  too lazy to copy.',
-                               'http://www.gstatic.com/tv/thumb/v22vodart/\
-                               12806300/p12806300_v_v8_ac.jpg',
-                               'https://www.youtube.com/\
-                               watch?v=cSp1dM2Vj48'
-                               )
+    'http://www.gstatic.com/tv/thumb/v22vodart/' +
+    '10372532/p10372532_v_v8_ae.jpg',
+
+    'https://www.youtube.com/watch?v=9ItBvH5J6ss'
+)
+
+READY_PLAYER_ONE = media.Movie(
+    'Ready player one', 'cool movie with long storyline...\
+    too lazy to copy.',
+
+    'http://www.gstatic.com/tv/thumb/v22vodart/' +
+    '12806300/p12806300_v_v8_ac.jpg',
+
+    'https://www.youtube.com/watch?v=cSp1dM2Vj48'
+)
 
 
 # the movies array, containing all the movies to display.
